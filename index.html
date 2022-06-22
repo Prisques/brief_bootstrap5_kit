@@ -13,21 +13,60 @@
 <body>
     <!-- header-->
     <div class="container-fluid header">
-        <h3  style="color:#919191 ; font-family: 'chunkfive',Georgia, serif; font-weight: bolder; font-size:44px ;">Wonderful weekends</h3>
-        <a style="" href="">-HOME</a>
-        <a href="">SERVICES</a>
-        <a href="">CONTACT US</a>
-        <a href="">BLANK</a>
+      <div class="row">
+        <div class="col-sm-5"><h3  style="color:#919191 ; font-family: 'chunkfive',Georgia, serif; font-weight: bolder; font-size: 40px ;padding-top: 12px;">Wonderful weekends</h3>
+        </div>
+        <div style="display: flex; justify-content: space-around;padding: 30px;" class="col-sm-4"><a style="color:#919191; text-decoration: none;" href="">-HOME</a>
+          <a style="color:#919191; text-decoration: none;" href="">SERVICES</a>
+          <a style="color:#919191; text-decoration: none;"  href="">CONTACT US</a>
+          <a style="color:#919191; text-decoration: none;" href="">BLANK</a></div>
+          <div class="col-sm-2"></div>
+          <div class="col-sm-1" style="padding-top: 30px;">
+            <a style="color:#919191; text-decoration: none;" href=""><svg viewBox="0 0 24 24" fill="currentColor" width="30px" height="30px" data-ux="UtilitiesMenuIcon" data-aid="CART_ICON_RENDER" data-typography="NavAlpha" class="x-el x-el-svg c2-t c2-u c2-y c2-1o c2-s c2-1p c2-1q c2-1r c2-1s c2-1n c2-3 c2-z c2-10 c2-1a c2-1b c2-1c c2-1t c2-1d c2-1e c2-1f"><path fill-rule="evenodd" d="M17.39 17.381c-.713 0-1.305.593-1.305 1.31 0 .715.592 1.31 1.305 1.31s1.305-.595 1.305-1.31c0-.717-.592-1.31-1.305-1.31m-9.133 0c-.713 0-1.305.593-1.305 1.31 0 .715.592 1.31 1.305 1.31s1.305-.595 1.305-1.31c0-.717-.592-1.31-1.305-1.31m9.765-2.061c.357 0 .673.376.673.734 0 .359-.295.735-.652.735H7.605a.659.659 0 0 1-.653-.655c0-.219.22-.654.409-1.006.138-.257.179-.553.118-.839L5.77 5.309H4.652A.658.658 0 0 1 4 4.655C4 4.297 4.296 4 4.652 4h1.774c.683 0 .704.819.805 1.309h12.116c.357 0 .653.297.653.655l-1.358 4.917a3.167 3.167 0 0 1-2.509 2.095l-7.356 1.132s.172.257.172.565c0 .308-.305.647-.305.647h9.378zM7.531 6.809l1.139 5.722 7.292-1.02a1.568 1.568 0 0 0 1.253-1.124l1.07-3.679-10.754.101z"></path></svg></a>
+            <a style="color:#919191; text-decoration: none" href=""><svg viewBox="0 0 24 24" class="ndong" fill="currentColor" width="30px" height="30px" data-ux="UtilitiesMenuIcon" data-typography="NavAlpha" class="x-el x-el-svg c2-t c2-u c2-1g c2-1p c2-1q c2-1r c2-s c2-1s c2-1t c2-1u c2-1v c2-1o c2-1j c2-3 c2-z c2-10 c2-1a c2-1b c2-1c c2-1w c2-1d c2-1e c2-1f"><path fill-rule="evenodd" d="M5.643 19.241a.782.782 0 0 1-.634-.889c.317-2.142 1.62-4.188 3.525-5.244l.459-.254-.39-.352a4.89 4.89 0 0 1-.797-6.327 4.747 4.747 0 0 1 2.752-2.003 4.894 4.894 0 0 1 6.092 5.72c-.211 1.042-.802 1.97-1.59 2.683l-.308.28.459.253c1.876 1.04 3.185 3.131 3.53 5.26a.765.765 0 0 1-.742.883c-.367.005-.697-.25-.753-.613-.52-3.384-4.067-6.087-7.702-4.324-1.628.79-2.714 2.511-3.014 4.313a.76.76 0 0 1-.887.614zm2.873-10.36a3.36 3.36 0 0 0 3.356 3.355A3.36 3.36 0 0 0 15.23 8.88a3.361 3.361 0 0 0-3.358-3.357A3.36 3.36 0 0 0 8.516 8.88z"></path></svg></a> 
+         </div>
+          <div class="cycy">
+            <ul>
+              <li><a href="">SIGN IN</a></li>
+              <li><a href="">CREATE ACCOUNT</a></li>
+              <li><a href="">BOOKINGS</a></li>
+              <li><a href="">MY ACCOUNT</a></li>
+            </ul>
+          </div>
+        </div>
+
+     <!----> 
+     <form action="" class="was-validated" style="background-color: white; border: white 3px solid; width: 363px; height: 521px;">
+      <div class="mb-3 mt-3">
+        <label for="uname" class="form-label" style="background-color: black; width: 357px; height: 83.3px; justify-items: center;">Wonderful weekends</label>
+        <input type="text" class="form-control" id="uname" placeholder="Name*" name="uname" required>
+        <div class="valid-feedback">Valid.</div>
+      </div>
+      <div class="mb-3">
+        <input type="email" class="form-control" id="pwd" placeholder="E-mail*" name="pswd" required>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Please fill in this required field</div>
+      </div>
+      <div class="form-check mb-3">
+        <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
+        <label class="form-check-label" for="myCheck">I agree on blabla.</label>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Check this checkbox to continue.</div>
+      </div>
+      <button type="submit" class="btn btn-primary">-SEND-</button>
+    </form>
+     <!---->
         
     </div>
     <div class="container-fluid text">
+
     <!-- photo-->
     </div>
-    <div class="container-fluid making text-center">
-    <h1 style="color:white ; font-family: 'chunkfive', Arial, Helvetica, sans-serif; font-weight: bolder; font-size:44px ;">Making Wonderful</h1>
-    <h1 style="color:white ; font-family: 'chunkfive', Arial, Helvetica, sans-serif; font-weight: bolder; font-size:44px ;">Memories</h1>
+    <div class="container-fluid making text-center" >
+    <h1 style="padding-top: 70px;color:white ; font-family: 'chunkfive', Arial, Helvetica, sans-serif; font-weight: bolder; font-size:44px ;">Making Wonderful</h1>
+    <h1 style="color:white ; font-family: 'chunkfive',Arial, Helvetica, sans-serif; font-weight: bolder; font-size:44px ;">Memories</h1>
     <p style="color:#919191; font-family: Arial, Helvetica, sans-serif; font-size: 16px">Let us help you organize the perfect event!</p>
-    <button style="border: solid 1px white; background: black; color:white;font-family: Arial, Helvetica, sans-serif;font-size: 14px; padding: 8px 16px;">- BOOK NOW -</button>
+    <button style="border: solid 1px white; background: black; color:white;font-family: Arial, Helvetica, sans-serif;font-size: 14px; padding: 8px 16px; font-weight: bolder;">- BOOK NOW -</button>
 
     </div>
     <!--texte -->
@@ -40,11 +79,14 @@
         </p> 
       </div>
     <!-- deux sections-->
+    
       <div class="container-fluid mt-5">
         <div class="row">
-          <div class="col-sm-6">
-            <h4 style="color:#1b1b1b; font-family: Arial, Helvetica, sans-serif;font-size: 16px; font-weight: bolder" >Versatile Service<br><br></h4>
-            <p style="color:#5e5e5e; font-family: Arial, Helvetica, sans-serif;font-size: 16px;" >
+          <div class="col-1"></div>
+
+          <div class="col-sm-5">
+            <h4 style="color:#1b1b1b; font-family: Arial, Helvetica, sans-serif;font-size: 16px; font-weight: bolder;text-align: center;" >Versatile Service<br><br></h4>
+            <p style="color: #5e5e5e; font-family: Arial, Helvetica, sans-serif;font-size: 16px; text-align: center" >
                 Our wide range of vendors ensure you have the exactly the event you <br>
                 want. From corporate event functions to anniversary parties, we help you <br>
                 find the event schedule that works for you. Contact us to meet with our <br>
@@ -52,70 +94,80 @@
             </p>
             
           </div>
-          <div class="col-sm-6">
-            <h4 style="color:#1b1b1b; font-family: Arial, Helvetica, sans-serif;font-size: 16px; font-weight: bolder" >A History of Satisfaction<br><br></h4>
-            <p style="color:#5e5e5e; font-family: Arial, Helvetica, sans-serif;font-size: 16px;" >
+          <div class="col-sm-5">
+            <h4 style="color:#1b1b1b; font-family: Arial, Helvetica, sans-serif;font-size: 16px; font-weight: bolder;text-align: center;" >A History of Satisfaction<br><br></h4>
+            <p style="color:#5e5e5e; font-family: Arial, Helvetica, sans-serif;font-size: 16px; text-align: center;" >
                 The press and our clients agree that our events are big hits...probably <br>
                 because we strive for 100% customer satisfaction. From email updates <br>
                 about how the planning is going to managing the day of the event, we will <br>
                 support you the whole way through.
             </p>
           </div>
+          <div class="col-1"></div>
+
           <!-- sections des tobogan-->
           <div class="container-fluid p-5 text-gray text-center">
             <h2 style="color:#595959; font-family: Arial, Helvetica, sans-serif; font-size: 22px;" >ONLINE APPOINTMENTS</h2>
+            <div style="width: 10px; height: 90px; background-color: #1b1b1b; margin: 0 auto;" class="tourne"></div>
            
           </div>
-                   
         </div>
       </div>
 
-      <div  class="container mt-3">
-           
-        <table class="table table-borderless">
-          <thead>
-            <tr>
-              <th><h2 style="color:#000000; font-family: Arial, Helvetica, sans-serif; font-size: 32px;" >Topaz Package</h2></th>
-              
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td > <img src="/src/assets/img/tobogan 1.png" alt=""> </td>
-              <td><h4 style="color:#1b1b1b; font-family: Arial, Helvetica, sans-serif; font-size: 22px;" >Topaz Package  : Includes: Moonwalk, <br> Tables and Chairs</h4>  <br>
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-2"><img src="/src/assets/img/tobogan 1.png" alt="">
+        </div>
+        <div class="col-4">
+          <h4 style="color:#1b1b1b; font-family: Arial, Helvetica, sans-serif; font-size: 22px;" >Topaz Package  : Includes: Moonwalk, <br> Tables and Chairs</h4>  <br>
                 <p style="color:#595959; font-family: Arial, Helvetica, sans-serif; font-size: 14px;" > 30 min|Price varies </p><br>
                 <p style="color:#5e5e5e; font-family: Arial, Helvetica, sans-serif; font-size: 14px;" > Topaz 1: Any Basic Moonwalk, 1 table & 8 chairs 4 hours =<br>
                 $150 8 hours = $300 Topaz 2: Any Basic Moonwalk, 2 tables <br>
                 & 16 chairs 4 hours = $225 8 h… </p>
-            
-            </td>
-              <td><button style="background: black; color: #c6c6c6">BOOK</button></td>
-            </tr>
-            <tr>
-              <td><img src="/src/assets/img/tobogan2.png" alt=""></td>
-              <td>
-                <h4 style="color:#1b1b1b; font-family: Arial, Helvetica, sans-serif; font-size: 22px;" >Topaz Package</h4>  <br>
-               <p style="color:#595959; font-family: Arial, Helvetica, sans-serif; font-size: 14px;" >8 hr|$300 </p> <br>
-               <p style="color:#5e5e5e; font-family: Arial, Helvetica, sans-serif; font-size: 14px;" >Includes: Moonwalk, Tables and Chairs Topaz 1: Any Basic <br>
-                 Moonwalk, 1 table & 8 chairs</p>
-              </td>
-              <td><button style="background: black; color: #c6c6c6">BOOK</button></td>
-            </tr>
-            <tr>
-              <td><img src="/src/assets/img/tobogan3.png" alt=""></td>
-              <td> <h4 style="color:#1b1b1b; font-family: Arial, Helvetica, sans-serif; font-size: 22px;" >Topaz Package</h4>  <br>
-                <p style="color:#595959; font-family: Arial, Helvetica, sans-serif; font-size: 14px;" > 4 hr|$225 </p> <br>
-                  <p style="color:#5e5e5e; font-family: Arial, Helvetica, sans-serif; font-size: 14px;" > Includes: Moonwalk, Tables and Chairs Topaz 2: Any Basic <br>
-                Moonwalk, 2 tables & 16 chairs</p>  </td>
-              <td><button style="background: black; color: #c6c6c6">BOOK</button></td>
-            </tr>
-          </tbody>
-        </table>
+          </div>
+          <div class="col-1"><button style="background: black; color: #c6c6c6">BOOK</button></div>
+          <div class="col-2"></div>
       </div>
+      <!-- -->
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-2"><img src="/src/assets/img/tobogan 1.png" alt="">
+        </div>
+        <div class="col-4">
+          <h4 style="color:#1b1b1b; font-family: Arial, Helvetica, sans-serif; font-size: 22px;" >Topaz Package</h4>  <br>
+                <p style="color:#595959; font-family: Arial, Helvetica, sans-serif; font-size: 14px;" > 8 hr|$300  </p><br>
+                <p style="color:#5e5e5e; font-family: Arial, Helvetica, sans-serif; font-size: 14px;" > Includes: Moonwalk, Tables and Chairs Topaz 1: Any Basic <br>
+                  Moonwalk, 1 table & 8 chairs</p>
+          </div>
+          <div class="col-1"><button style="background: black; color: #c6c6c6">BOOK</button></div>
+          <div class="col-2"></div>
+      </div>
+
+
+      <!-- -->
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-2"><img src="/src/assets/img/tobogan 1.png" alt="">
+        </div>
+        <div class="col-4">
+          <h4 style="color:#1b1b1b; font-family: Arial, Helvetica, sans-serif; font-size: 22px;" >Topaz Package</h4>  <br>
+                <p style="color:#595959; font-family: Arial, Helvetica, sans-serif; font-size: 14px;" > 30 min|Price varies </p><br>
+                <p style="color:#5e5e5e; font-family: Arial, Helvetica, sans-serif; font-size: 14px;" > Topaz 1: Any Basic Moonwalk, 1 table & 8 chairs 4 hours =<br>
+                $150 8 hours = $300 Topaz 2: Any Basic Moonwalk, 2 tables <br>
+                & 16 chairs 4 hours = $225 8 h… </p>
+          </div>
+          <div class="col-1"><button style="background: black; color: #c6c6c6">BOOK</button></div>
+          <div class="col-2"></div>
+      </div>
+
+
+     
+      
     <!--footer-->
 
       <div style="color:#919191; padding: 30px"  class="container-fluid header text-center">
         <p style="color:#a9a9a9; font-family: Arial, Helvetica, sans-serif; font-size: 12px;" > COPYRIGHT © 2022 WONDERFUL WEEKENDS - ALL RIGHTS RESERVED.</p>
     </div>
+    <script src="./html&css/css/js.js"></script>
 </body>
 </html>
