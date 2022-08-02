@@ -30,6 +30,9 @@
   opacity:0;
   
  }
+ .apparition{
+  display: block;
+ }
  .cycy2{
     opacity:1;
  }
@@ -47,7 +50,7 @@
     background-color: black;
 }
 .making{
-    height: 321.59px;
+    height: 1500px;
     background-color: black;
 }
 a{

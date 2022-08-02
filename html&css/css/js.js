@@ -8,3 +8,14 @@ icone.addEventListener('click',(e) =>{
    icone.addEventListener('click',() =>menu_cache.classList.remove('cycy2'))
 });
 
+let bouton_du_bas = document.querySelector('.message');
+let form1 = document.querySelector('#form1');
+
+
+
+bouton_du_bas.addEventListener('click',() =>{
+    form1.style.display = 'block';
+    if(form1.style.display == 'block'){
+        bouton_du_bas.addEventListener('click', () => form1.style.display= 'none')
+    }
+});
